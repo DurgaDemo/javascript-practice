@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task </title>
+        <link rel="stylesheet" type="text/css" href="task1.css">
+        <style>
+ 
+        </style>
+    </head>
+
+    <body>
+        <script>
+
+    // (function(x){
+    //     return (function(y){
+    //       console.log(y)
+    //     })(2)
+    // })(1)
+
+
+    // for(var i=0;i<5;i++){
+    //     setTimeout(function(){
+           
+    //     },i*2000)
+    //     console.log(i)
+    // }
+    
+
+
+    // var a="I am Durga"
+    // var b=a.split('').reverse().join('')
+    // console.log(b)
+
+
+
+    // let a=[1,2,3,4]
+    //  a.push(5)   
+    //  console.log(a)
+
+    //  let a=[1,2,3,4]
+    //  let b=a.pop()   
+    //  console.log(b)
+
+    //  let a=[1,2,3,4]
+    //  let b=a.shift()   
+    //  console.log(b)
+
+    //  let a=[1,2,3,4]
+    //  a.unshift(0)   
+    //  console.log(a)
+
+    // let a=[1,2,4]
+    // a.splice(2,0,3)
+    // console.log(a)
+
+    // let a=[1,2,3]
+    // a[3]=4
+    // console.log(a)
+
+    // let person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+    // let x=person
+    // x.age=20
+    // console.log(person.age)
+
+
+    // const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+    // person.location="India"
+    // console.log(person.location)
+
+    // var person={
+    //     firstName:"John",
+    //     lastName:"Doe",
+    //     fullname: function(){
+    //         setTimeout(()=>{
+    //             console.log(this.firstName+" "+this.lastName)
+    //         },1000)
+    //     }
+
+    // }
+    // person.fullname()
+
+
+    // let x=[1,2,3,4]
+    // let[a,...b]=x
+    // console.log(a)
+    // console.log(b)
+    
+
+
+    // let x=[4,5,6]
+    // let y=[1,2,3,...x]
+    // console.log(y)
+
+
+    // var x=[1,2,3,4]
+    // for(let y of x){
+    //     console.log(y)
+    // }
+
+
+    // var x={
+    // name:"durga",
+    // age:28,
+    // address:"odisha"   
+    //   }
+    //  for(let y in x) {
+    //      console.log(x[y])
+    //  }
+
+
+
+    // let x=[1,2,3,4]
+    // let [a,b,c,d]=x
+    // console.log(a)
+    // console.log(b)
+    // console.log(c)
+    // console.log(d)
+
+//     let a={
+//    name:"durga",
+//    age:28
+// }
+// let{name,age}=a
+// console.log(name)
+// console.log(age)
+
+// let x=[1,2,3,4]
+// let y=x.map(function(a){
+//     console.log(a*10)
+// })
+
+// let x=[1,2,3,4]
+// let y=x.filter(function(a){
+//     return a>2
+// })
+// console.log(y)
+
+// function x(){
+//     var a=10
+//     function y(){
+//         var b=20
+//         console.log(a+b)
+//     }y()
+// }x()
+
+
+// var a="durga"
+// function display(){
+//     this.a="sankar"
+//     console.log(a)
+// }
+// display()
+
+// function Person(first,last,age){
+//     this.firstName=first
+//     this.lastName=last
+//     this.age=age
+// }
+
+// Person.prototype.location="India"
+
+// let emp1= new Person("Durga","Mohapatra",28)
+// let emp2= new Person("Titu","Moha",22)
+
+// console.log(emp2.location)
+
+
+class Mobile{
+    constructor(samsung){
+    this.samsung="Galaxy"
+    }
+}
+
+class Tablet extends Mobile{
+    constructor(model,price){
+        super()
+        this.model="Lenovo"
+        this.price=3000
+    }
+}
+let x= new Tablet()
+console.log(x.samsung)
+console.log(x.model)
+console.log(x.price)
+
+
+        </script>
+    </body>
+</html>

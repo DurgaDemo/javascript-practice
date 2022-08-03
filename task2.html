@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task running in browser</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+<script>
+
+// var numbers=[1,2,3,4]
+// console.log(Math.max(1,2,6,4,5));
+
+// var numbers=[1,2,3,4]
+// console.log(...numbers)                      //spread operator
+// console.log(Math.max(...numbers));
+
+// var a=[1,2,3]
+// var b=[...a,4,5,6,7]                
+// console.log(b)
+
+
+// var colors=["violet","indigo","blue","green"]
+// var [a,b,...c]=colors                                //rest operater
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+
+// let numbers=[1,2,3,4]
+// for(let number of numbers){           ///for of loop
+//     console.log(number)
+// }
+
+
+// let obj={
+//     name:"leela",
+//     age:20
+// }                                      //for in loop
+// for(let prop in obj){
+//     console.log(obj[prop])
+// }
+
+
+// let name='leela'
+// let age=30                                                             //template literal
+// let text=`hello my name is and i m ${name} and my age is ${age}`;
+// console.log(text)
+
+
+
+// let numbers=[1,2];
+// let[a,b]=numbers
+// console.log(a)
+// console.log(b)
+
+
+// let numbers=[1,2];
+// let[a,b,c="default"]=numbers
+// console.log(a)
+// console.log(b)                                  //destructuring array
+// console.log(c)
+
+// let numbers=[1,2,3];
+// let[a,,b]=numbers
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// let a=1
+// let b=2
+// [a,b]=[b,a];
+// console.log(a,b)
+// //console.log(`${b}`)
+
+
+
+// let obj={
+//     name:'durga',
+//     age:30,
+//     hello:function(){                     //destructuring object 
+//         console.log("hello")
+//     }
+// }
+// let{name,age,hello}=obj;
+// console.log(name,age)
+// hello()
+
+
+
+
+// var array=[1,2,3,4]
+// var newarray=array.map(function(value){            //map() function
+//   return value*2                               
+// })
+// console.log(newarray)
+// console.log(array)
+
+
+
+// var array=[1,2,3,4]
+// var newarray=array.filter(function(value){
+//   return value>2                                       //filter() function
+// })
+// console.log(newarray)
+// console.log(array)
+
+
+function f(){
+    var x=10
+    function g(){
+        var y=20                               //closer
+        console.log(x+y)
+    }
+    g()
+}
+f()
+
+
+
+</script>
+</body>
+</html>
